@@ -2,15 +2,15 @@
 <html lang="en" dir="ltr">
    <head>
       <meta charset="utf-8">
-      <title>Quiz Pra UTS</title>
+      <title>Crud Dengan Code Igniter</title>
    </head>
    <body>
       <center>
-         <h1>Quiz Membuat Cruid WP II</h1>
+         <h1>Quiz Membuat Crud Pra UTS Web Programming II</h1>
          <h3>Form Tambah Data Identitas Baru</h3>
       </center>
          <form action="<?php echo base_url() . 'crud/tambah_aksi';?>" method="post">
-            <table style="margin:20px auto;">
+            <table style="margin:30px auto;">
                <tr>
                   <td>Nama</td>
                   <td>:</td>
@@ -34,7 +34,7 @@
                <td><input type="submit" value="Tambah"></td>
             </table>
 
-        </form>
+         </form>
 
-</body>
+   </body>
 </html>

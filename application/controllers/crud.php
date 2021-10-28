@@ -39,14 +39,14 @@ class Crud extends CI_Controller
    }
    function update() {
       $id=$this->input->post('id');
-      $nim=$this->input->post('nim');
-      $nama=$this->input->post('nama');
+      $nim=$this->input->post('nama');
+      $nama=$this->input->post('nim');
       $kelas=$this->input->post('kelas');
       $alamat=$this->input->post('alamat');
 
       $data = array(
-         'nim' => $nim,
-         'nama' => $nama,
+         'nim' => $nama,
+         'nama' => $nim,
          'kelas' => $kelas,
          'alamat' => $alamat,
          
